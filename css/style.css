@@ -311,7 +311,7 @@ span {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 127, 115, 0.85);
+    background: #8FA31E;
     color: var(--bg-color);
     display: flex;
     flex-direction: column;
