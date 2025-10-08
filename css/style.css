@@ -9,7 +9,7 @@
 
 :root {
     --bg-color: #fff;
-    --snd-bg-color: #d5fdf9;
+    --snd-bg-color: #EFF5D2;
     --text-color: #000;
     --main-color: #556B2F;
 }
@@ -347,7 +347,7 @@ span {
 }
 
 .btn:hover {
-    background: #005f54;
+    background: #8FA31E;
 }
 
 .logo {
@@ -390,7 +390,7 @@ span {
 }
 
 .footer .socials a:hover {
-    color: #d5fdf9;
+    color: #EFF5D2;
 }
 
 .footer i {

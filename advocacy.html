@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Advocacy</title>
-    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Advocacy</title>
 </head>
-<body>
-    <!-- Navbar -->
-    <div id="navbar-container"></div>
-    <script>
-        fetch("navbar.html")
-            .then(res => res.text())
-            .then(data => document.getElementById("navbar-container").innerHTML = data);
-    </script>
 
-    <!-- Advocacy Section -->
+<body>
+
     <section class="advocacy">
         <div class="advocacy-content">
-            <h1>Our <span>Advocacy</span></h1>
+            <h1><span>Advocacy</span></h1>
             <p>
-                We aim to promote <b>environmental awareness</b> and encourage everyone to take action in protecting our planet. 
-                Every small step — from reducing waste to planting trees — contributes to a sustainable and healthier future for all.
+                As someone who actively joins mission trips, I’ve seen how meaningful change begins with <b>compassion
+                    and
+                    connection</b>. These experiences have inspired me to extend my mission beyond physical outreach and
+                into
+                the digital world. My advocacy focuses on <b>promoting digital literacy</b>,
+                especially among students and young people in underprivileged communities.
             </p>
             <p>
-                Through this initiative, we hope to inspire young people to become <b>responsible stewards of nature</b> 
-                and create lasting change in their communities.
+                In many places I’ve visited, access to technology is growing, but awareness of how to use it safely and
+                effectively remains limited. Through workshops, mentorship, and online campaigns, I aim to teach
+                practical digital skills, online safety, and ethical use of technology. I believe that by educating
+                others on how to use digital tools wisely, we can open doors to new learning opportunities and <b>empower
+                    individuals</b> to become responsible digital citizens.
             </p>
-            <a href="contact.html" class="btn">Join Us</a>
+            <p>
+                By combining my passion for service with technology, I hope to <b>bridge the gap</b> between communities and
+                the digital world. This advocacy is not just about teaching skills—it’s about inspiring people to use
+                technology as a means to uplift others, strengthen communities, and continue the spirit of mission work
+                in a modern, connected way.
+            </p>
         </div>
         <div class="advocacy-img">
-            <img src="images/advocacy.jpg" alt="Advocacy Image">
+            <img src="assets/advocacy.png" alt="Advocacy Image">
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>© 2025 Our Advocacy Group | All Rights Reserved</p>
-    </footer>
+
+    <script src="js/navbar.js"></script>
+    <script src="js/footer.js"></script>
 </body>
+
 </html>
