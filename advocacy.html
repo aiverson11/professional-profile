@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Advocacy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div id="navbar-container"></div>
+    <script>
+        fetch("navbar.html")
+            .then(res => res.text())
+            .then(data => document.getElementById("navbar-container").innerHTML = data);
+    </script>
+
+    <!-- Advocacy Section -->
+    <section class="advocacy">
+        <div class="advocacy-content">
+            <h1>Our <span>Advocacy</span></h1>
+            <p>
+                We aim to promote <b>environmental awareness</b> and encourage everyone to take action in protecting our planet. 
+                Every small step — from reducing waste to planting trees — contributes to a sustainable and healthier future for all.
+            </p>
+            <p>
+                Through this initiative, we hope to inspire young people to become <b>responsible stewards of nature</b> 
+                and create lasting change in their communities.
+            </p>
+            <a href="contact.html" class="btn">Join Us</a>
+        </div>
+        <div class="advocacy-img">
+            <img src="images/advocacy.jpg" alt="Advocacy Image">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Our Advocacy Group | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
