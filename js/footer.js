@@ -12,5 +12,4 @@ footer.innerHTML = `
 `;
 footer.classList.add('footer');
 
-// Add footer to the bottom of the page
 document.body.appendChild(footer);

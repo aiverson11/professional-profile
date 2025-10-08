@@ -1,4 +1,3 @@
-/* ===== GENERAL ===== */
 * {
     margin: 0;
     padding: 0;
@@ -33,7 +32,7 @@ section {
     padding: 10rem 9% 2rem;
 }
 
-/* ===== HEADER / NAVBAR ===== */
+/* header / navbar */
 .header {
     position: fixed;
     top: 0;
@@ -104,7 +103,7 @@ section {
     }
 }
 
-/* ===== HOME SECTION ===== */
+/* home */
 .home {
     display: flex;
     align-items: center;
@@ -206,7 +205,7 @@ span {
     box-shadow: 0 0 1.6rem var(--main-color);
 }
 
-/* ===== CERTIFICATION SECTION ===== */
+/* certification */
 .certification h1 {
     margin-bottom: 1rem;
 }
@@ -217,7 +216,7 @@ span {
     list-style: none;
 }
 
-/* ===== ADVOCACY SECTION ===== */
+/* advocacy */
 .advocacy {
     display: flex;
     align-items: center;
@@ -263,7 +262,7 @@ span {
     box-shadow: 0 0 35px var(--main-color);
 }
 
-/* ===== PORTFOLIO SECTION ===== */
+/* portfolio */
 .portfolio {
     background: var(--bg-color);
     padding: 10rem 9%;
@@ -354,7 +353,6 @@ span {
     font-size: 3rem;
     color: var(--bg-color);
     font-weight: 700;
-    /* letter-spacing: 0.1rem; */
     cursor: pointer;
     transition: 0.3s ease ; 
 }
@@ -364,7 +362,7 @@ span {
     transform: scale(1.05);
 }
 
-/* ===== FOOTER ===== */
+/* footer */
 .footer {
     background: #556B2F;
     color: white;
