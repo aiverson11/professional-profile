@@ -1,0 +1,77 @@
+.portfolio {
+  background: var(--snd--bg-color);
+  padding: 15rem 9%;
+  text-align: center;
+}
+
+.portfolio .heading {
+  font-size: 4.5rem;
+  margin-bottom: .5rem;
+}
+
+.portfolio-intro {
+  font-size: 1.9rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 3rem;
+}
+
+.portfolio-box {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.portfolio-box img {
+  width: 100%;
+  transition: 0.5s ease;
+}
+
+.portfolio-box:hover img {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.portfolio-layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 127, 115, 0.85);
+  color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.4s ease;
+  padding: 2rem;
+}
+
+.portfolio-box:hover .portfolio-layer {
+  opacity: 1;
+}
+
+.portfolio-layer h4 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.portfolio-layer p {
+  font-size: 1.7rem;
+  line-height: 1.5;
+}
+
+.portfolio-layer .btn {
+  margin-top: 1.5rem;
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+}

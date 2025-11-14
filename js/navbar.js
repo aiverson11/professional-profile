@@ -10,7 +10,16 @@ document.addEventListener("DOMContentLoaded", () => {
             <a href="skill.html">Skill</a>
             <a href="certification.html">Certification</a>
             <a href="advocacy.html">Advocacy</a>
-            <a href="portfolio.html">Portfolio</a>
+
+            <div class="dropdown">
+            <a href="portfolio.html" class="dropbtn">Portfolio</a>
+            <div class="dropdown-content">
+                <a href="project1.html">XeeAI</a>
+                <a href="project2.html">Smart Campus Navigator</a>
+                <a href="project3.html">Resume Analyzer</a>
+                <a href="project4.html">Personalized Learning Content Recommender</a>
+            </div>
+        </div>
         </nav>
     </header>
     `;
